@@ -1,0 +1,134 @@
+h1 {
+    color: white;
+    margin-bottom: -13px;
+}
+
+p {
+    color: beige;
+}
+h3 {
+    color: white;
+}
+
+.weatherPageStyle {
+    height: 92vh;
+    width: 150vh;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    top: 20px;
+    left: 10%;
+ 
+}
+.weatherContents{
+    height: 92vh;
+    width: 150vh;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    position: absolute;
+    top: 20px;
+    align-items: start;
+    
+}
+
+.searchBar {
+    height: 40px;
+    width: 100vh;
+    background-color: #202B3C;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+.searchBar p {
+    color: beige;
+    margin-left: 20px;
+    font-size: 13px
+}
+.firstContainer {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    height: 28vh;
+    gap: 80%;
+
+}
+.todaysforecast {
+    margin-top: 15px;
+    height: 25vh;
+    width: 100vh;
+    background-color: #202B3C;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.todaysforecast p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-left: 15px;
+  
+}
+.forecastItems {
+   display: flex;
+text-align: center;
+   flex-direction: row;
+}
+
+.airConditions {
+    margin-top: 20px;
+    display: flex;
+    height: 28vh;
+    width: 100vh;
+    background-color: #202B3C;
+    border-radius: 15px;
+    
+    flex-direction: column;
+}
+.airConditionFirstRow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 6px;
+}
+.airConditionFirstRow p {
+    font-size: 10px;
+    font-weight: bold;
+}
+.airConditionButton{
+    background-color: #098ae7;
+    border-radius: 30px;
+    border: none;
+    width: 90px;
+    height: 25px;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+}
+.airConditionItems{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  place-items: center;
+
+
+}
+.sideContainer {
+    background-color: #202B3C;
+    height: 92vh;
+    width: 53vh;
+    position: absolute;
+    left: 89%;
+    top: 15px;
+    border-radius: 20px;
+}
+.sideContainer p{
+    font-weight: bold;
+    font-size: 11px;
+    color: beige;
+    margin-left: 10px;
+}
+

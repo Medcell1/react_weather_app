@@ -1,0 +1,24 @@
+/* SevenDayForecastTile.css */
+
+.sevenDayForecastTile {
+    border-bottom: 1px solid #354c5e;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .sevenDayForecastTile.lastTile {
+    border-bottom: none;
+  }
+  
+  .tileContent {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tileContent img {
+    width: 30px; /* Adjust the size as needed */
+    height: 30px; /* Adjust the size as needed */
+    margin: 0 10px; /* Add some spacing between the image and text */
+  }
+  

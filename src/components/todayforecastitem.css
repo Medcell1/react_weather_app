@@ -1,0 +1,29 @@
+.todayforecastitem {
+    display: flex;
+    flex-direction: row;
+
+    height: 110px;
+    width: 100px;
+
+}
+
+
+.divider {
+    border-left: 1px solid #ccc;    
+    height: 105px; 
+    margin: 0 10px; 
+  }
+.forecastdetails{
+    height: 100px;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h3 {
+    position: absolute;
+   top: 57%;
+   display: flex;
+  justify-items: center;
+  
+}
